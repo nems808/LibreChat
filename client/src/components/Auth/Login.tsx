@@ -24,11 +24,12 @@ function Login() {
       )}
       {startupConfig?.registrationEnabled && (
         <p className="my-4 text-center text-sm font-light text-gray-700 dark:text-white">
-          {' '}
-          {localize('com_auth_no_account')}{' '}
-          <a href="/register" className="p-1 text-green-500">
-            {localize('com_auth_sign_up')}
-          </a>
+          {/*{' '}*/}
+          {/*{localize('com_auth_no_account')}{' '}*/}
+          {/*<a href="/register" className="p-1 text-green-500">*/}
+          {/*  {localize('com_auth_sign_up')}*/}
+          {/*</a>*/}
+          Test environment
         </p>
       )}
     </>
